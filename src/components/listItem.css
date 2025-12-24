@@ -1,0 +1,20 @@
+.list-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 2px;
+    border-bottom: 1px solid #eee;
+    font-family: 'Arial', sans-serif;
+    font-size: 1rem;
+    width: 95%;
+    overflow-x: auto;
+
+}
+@media (max-width: 600px) {
+    .list-item{
+        font-size: 0.7rem;
+    }
+}
+.delete-btn{
+    width: 45px;
+}

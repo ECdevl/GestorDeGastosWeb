@@ -1,0 +1,39 @@
+.spenses-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background-color: #627C85;
+    border-radius: 8px;
+    width: 95%;
+
+}
+.spenses-list ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: decimal;
+
+    flex-wrap: wrap;
+    overflow-y: auto;
+    height: 100%;
+    width: 100%;
+    
+
+
+
+    
+
+
+}
+
+.total-lbl{
+    text-align: center;
+    font-size: 2rem;
+    margin: 10px;
+}
+.balance-lbl{
+    text-align: center;
+    font-size: 2rem;
+    margin: 10px;
+    transition: all 0.3s ease;
+}
